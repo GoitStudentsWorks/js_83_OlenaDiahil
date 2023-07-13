@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/js_83_OlenaDiahil/assets/favicon-2a2c9bf1.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bookshelf</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+  
+  <script type="module" crossorigin src="/js_83_OlenaDiahil/assets/shopping-list-3b473a2d.js"></script>
+  <link rel="modulepreload" crossorigin href="/js_83_OlenaDiahil/assets/support-ukraine-71765aab.js">
+  <link rel="stylesheet" href="/js_83_OlenaDiahil/assets/support-ukraine-e81318a5.css">
+</head>
+
+<body>
+  <div class="header">
+    <header class="header">
+      <div class="header-overlay">
+
+        <a href="./index.html" class="header-logo-link">
+          <svg class="header-logo" width="24" height="24">
+            <use href="/js_83_OlenaDiahil/assets/icons-4ae6299c.svg#icon-logo"></use>
+          </svg>
+
+          <svg class="header-logo-bookshelf" width="77" height="13.27">
+            <use href="/js_83_OlenaDiahil/assets/icons-4ae6299c.svg#icon-Bookshelf"></use>
+          </svg>
+        </a>
+
+        <nav class="navigation">
+          <ul class="site-nav">
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link">Home</a>
+            </li>
+            <li class="site-nav__item_active current">
+              <a href="./shopping-list.html" class="site-nav__link">Shopping list
+                <svg class="site-nav__logo_shopp" width="20" height="20">
+                  <use href="/js_83_OlenaDiahil/assets/icons-4ae6299c.svg#icon-uil_cart"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-switcher">
+          <label for="switcher-button" class="switcher">
+            <input type="checkbox" id="switcher-button" class="switcher-button" />
+          </label>
+        </div>
+        <button type="button" class="button-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <!--Burger menu -->
+    <div class="menu-container" id="mobile-menu">
+      <div class="div-burger-nav">
+        <nav>
+          <ul class="burger-nav">
+            <li class="burger-nav-item"><a href="./index.html" class="burger-link">HOME</a></li>
+            <li class="burger-nav-item"><a href="./shopping-list.html" class="burger-link-active current">SHOPPING LIST
+                <svg class="site-nav-logo-burger_shopp" width="20" height="20">
+                  <use href="/js_83_OlenaDiahil/assets/icons-4ae6299c.svg#icon-uil_cart"></use>
+                </svg>
+              </a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="container-shopping-list">
+    <div class="shoppingList-suppot">
+      <div class="support-ukraine">
+  <h2 class="head-title">
+    Support Ukraine
+    <svg class="icon-ua" width="20" height="32">
+      <use href="/js_83_OlenaDiahil/assets/ua-swiper-487a1634.svg#icon-ua"></use>
+    </svg>
+  </h2>
+
+  <div class="swiper">
+    <div class="swiper-wrapper support-list"></div>
+  </div>
+
+  <button type="button" class="button-next swiper-next" aria-label="Swipe next">
+    <span class="icon-container">
+      <svg class="icon-down" width="20" height="32">
+        <use
+          href="/js_83_OlenaDiahil/assets/ua-swiper-487a1634.svg#icon-fi-rr-angle-small-left"
+        ></use>
+      </svg>
+    </span>
+  </button>
+</div>
+
+    </div>
+    
+<div class="shoppingList-container">
+  <div class="shoppingList-suppot">
+    <include src="./partials/support-ukraine.html"></include>
+  </div>
+  <div class="shoppingList-box">
+    <h1 class="shoppingList-title">Shopping <span>List</span></h1>
+
+    <ul class="books-shoppingList"></ul>
+  </div>
+</div>
+
+    
+  </div>
+  <div class="sections-footer">
+     <footer class="footer">
+    <p class="footer-text"> &copy; 2023 | All Rights Reserved | Developed by GoIT
+    Students </p>
+</footer>
+  </div>
+
+  
+</body>
+
+</html>
